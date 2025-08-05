@@ -1,2 +1,3 @@
-Collection of bash and R scripts used for data analysis for the paper "In Drosophila brain, transposable elements are co-transcriptionally silenced by HP1a recruited via Ago2/siRNA complex"
-Genomic and TE profiles can be loaded from RData folder by using R's load() function.
+Collection of bash and R scripts used for data analysis for the paper "Ago2-mediated recruitment of HP1a on transposable elements in Drosophila brain".
+Bash scripts were ran on a high performing computing cluster operating with a SLURM scheduling software and Lmod environment module software. To run them adjust the hard-coded paths to file/indexes/etc and either update SLURM parameters at the beginning of the scripts or adjust them according to your system. Although running the scripts doesn't require any profound programming skills besides basic bash, all risks are assumed by the one who tries to run the scripts.
+R scripts outline the analysis used to generate figures in the paper. Genomic and TE profiles can be loaded from RData folder by using R's load() function.
